@@ -1,0 +1,110 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 7 jul. 2024, 20:18:33
+    Author     : Adriana
+*/
+
+/* styles.css */
+h2{
+    
+ font-family: Arial, sans-serif;   
+    
+}
+body {
+    font-family: Arial, sans-serif; /* Aplicar la fuente a todo el cuerpo del documento */
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #ff0000; /* Color rojo */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #cc0000; /* Color rojo oscuro al pasar el ratón */
+}
+/* Table Styles */
+#productosTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+     text-align: center; /* Alineación centrada para los titulos */
+       
+}
+
+#productosTable th, #productosTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+      text-align: center; /* Alineación centrada para los productos */
+       background-color: white; /* Cambia el color de fondo de las celdas a blanco */
+font-family: Arial, sans-serif;
+}
+
+#productosTable th {
+    background-color:#F9E79F  ; /* color para los titulos*/
+   font-family: Arial, sans-serif;
+    
+}
+
+/* Button Styles */
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px;
+    margin-right: 5px;
+      font-family: Arial, sans-serif;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.btn img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.button-container {
+    text-align: center;
+      text-align: center;
+}
+
+.button-container a.button {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #007bff; /* Color de fondo */
+    color: white; /* Color del texto */
+    border-radius: 5px; /* Bordes redondeados */
+    font-family: Arial, sans-serif; /* Fuente Arial */
+}
+
+.button-container a.button:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el ratón */
+}
