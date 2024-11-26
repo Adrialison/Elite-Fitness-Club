@@ -1,0 +1,71 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 3 may. 2024, 13:16:20
+    Author     : Adriana
+*/
+
+/* Estilos para el contenedor principal */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar horizontalmente */
+    justify-content: center; /* Centrar verticalmente */
+    height: 100vh; /* Altura del 100% de la ventana */
+}
+
+/* Estilos para la tabla de respuesta */
+.response-table {
+    border-collapse: collapse;
+    width: 80%; /* Ancho de la tabla */
+    max-width: 600px; /* Ancho máximo para una mejor visualización en dispositivos grandes */
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.response-table th,
+.response-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.response-table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Estilos para el enlace */
+a {
+    display: inline-block;
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: darkred;
+}
+/* Estilos para el contenedor del botón */
+.button-container {
+    margin-top: 20px; /* Espacio entre la tabla y el botón */
+}
+
+/* Estilos para el enlace */
+a {
+    display: inline-block;
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: darkred;
+}
